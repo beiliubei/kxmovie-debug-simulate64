@@ -9,11 +9,11 @@ Pod::Spec.new do |spec|
   spec.summary      = 'kxmovie support armv7 armv7s arm64 x86_64'
   spec.author       = { 'Liu Bei' => 'beiliubei@gmail.com' }
 
-  s.source_files  = "*.{h,m}"
-  s.resources = "kxmovie.bundle/*.png"
-  s.public_header_files = "*.h"
+  spec.source_files  = "*.{h,m}"
+  spec.resources = "kxmovie.bundle/*.png"
+  spec.public_header_files = "*.h"
 
-  s.frameworks = "MediaPlayer", "CoreAudio", "AudioToolbox", "Accelerate", "QuartzCore", "OpenGLES"
-  s.ios.libraries = "z", "iconv"
-  s.vendored_libraries = "libkxmovie.a", "libavcodec.a", "libavformat.a", "libavutil.a", "libswscale.a", "libswresample.a"
+  spec.frameworks = "MediaPlayer", "CoreAudio", "AudioToolbox", "Accelerate", "QuartzCore", "OpenGLES"
+  spec.ios.libraries = "z", "iconv"
+  spec.vendored_libraries = "libkxmovie.a", "libavcodec.a", "libavformat.a", "libavutil.a", "libswscale.a", "libswresample.a"
 end
