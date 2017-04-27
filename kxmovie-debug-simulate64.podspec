@@ -1,10 +1,9 @@
 Pod::Spec.new do |spec|
   spec.name         = 'kxmovie-debug-simulate64'
-  spec.version      = '0.0.3'
+  spec.version      = '0.0.4'
   spec.platform     = :ios, '7.0'
   spec.license      = 'MIT'
   spec.source       = { :git => 'https://github.com/beiliubei/kxmovie-debug-simulate64.git', :tag => spec.version.to_s }
-  spec.requires_arc = true
   spec.homepage     = 'https://github.com/beiliubei/kxmovie-debug-simulate64'
   spec.summary      = 'kxmovie support armv7 armv7s arm64 x86_64'
   spec.author       = { 'Liu Bei' => 'beiliubei@gmail.com' }
